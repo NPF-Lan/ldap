@@ -1,6 +1,6 @@
 # LDAP
-  
-OpenLDAP server, containing NPF Helper accounts for basic authentication purposes.
+
+Basic NPF OpenLDAP Container config, for NPF Helper basic authentication purposes.
 
 ## Start the Container
 
