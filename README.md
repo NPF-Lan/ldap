@@ -24,3 +24,20 @@ docker run --hostname ldap.npf.dk
        --name openldap \
        osixia/openldap
 ```
+
+## Fields
+
+```
+givenName
+middleName
+sn
+initials
+uid - username
+title
+mobilePhone
+displayName
+memberOf - groups
+employeeNumber - username-independent identifier
+emailAddress
+department - optionally primary group name
+```
