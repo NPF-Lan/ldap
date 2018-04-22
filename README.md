@@ -9,10 +9,10 @@ docker run --hostname ldap.npf.dk
        --detach
        --env LDAP_ORGANISATION="npf" \
        --env LDAP_DOMAIN="npf.dk" \
-       --env LDAP_ADMIN_PASSWORD='something' \
+       --env LDAP_ADMIN_PASSWORD='<password>' \
        --env LDAP_READONLY_USER=true \
        --env LDAP_READONLY_USER_USERNAME=npf \
-       --env LDAP_READONLY_USER_PASSWORD='something' \
+       --env LDAP_READONLY_USER_PASSWORD='<password>' \
        --volume <localPath>/data:/var/lib/ldap \
        --volume <localPath>/config:/etc/ldap/slapd.d \
        --env LDAP_TLS_CRT_FILENAME=<someCertificate>
